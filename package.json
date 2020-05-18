@@ -1,0 +1,40 @@
+{
+  "name": "reactStudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+	"start": "webpack-dev-server --mode development --content-base ./dist --hot --inline --colors --port 3000 --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://NongYoong:n0wiveg0ty0u!@github.com/NongYoong/reactStudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NongYoong/reactStudy/issues"
+  },
+  "homepage": "https://github.com/NongYoong/reactStudy#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router": "^5.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
